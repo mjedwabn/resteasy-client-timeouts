@@ -1,0 +1,5 @@
+version: '2'
+services:
+  httpengine-wa-hello:
+    build: .
+    image: mjdev/httpengine-wa-hello

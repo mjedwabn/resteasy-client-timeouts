@@ -1,0 +1,5 @@
+version: '2'
+services:
+  httpcomponents-wa-hello:
+    build: .
+    image: mjdev/httpcomponents-wa-hello

@@ -1,0 +1,5 @@
+version: '2'
+services:
+  default-hello:
+    build: .
+    image: mjdev/default-hello
