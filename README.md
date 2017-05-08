@@ -61,9 +61,9 @@ After some digging one the Web I have found workaround and applied it in pom:
 	</plugin>
 </plugins>
 ```
-http://stackoverflow.com/questions/10598889/jboss7-loader-constraint-violation-with-reasteasy-and-httpclient-with-custom-ht
-http://stackoverflow.com/questions/18275551/java-lang-linkageerror-loader-constraint-violation-when-resolving-method-org
-https://developer.jboss.org/thread/213682
+* http://stackoverflow.com/questions/10598889/jboss7-loader-constraint-violation-with-reasteasy-and-httpclient-with-custom-ht
+* http://stackoverflow.com/questions/18275551/java-lang-linkageerror-loader-constraint-violation-when-resolving-method-org
+* https://developer.jboss.org/thread/213682
 
 It solves runtime issue but timeouts still do not work:
 ```
@@ -82,3 +82,4 @@ httpengine-wa-hello_1  | 20:50:49,403 INFO  [Hello] (ServerService Thread Pool -
 httpengine-wa-hello_1  | 20:50:50,651 SEVERE [Hello] (ServerService Thread Pool -- 61) Request failed cause of: Read timed out
 httpengine-wa-hello_1  | 20:50:50,655 INFO  [Hello] (ServerService Thread Pool -- 61) Request duration: PT1.248S
 ```
+...but why previous example does not???
